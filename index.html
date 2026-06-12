@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인정보처리방침 - inst_dm_auto</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    background: #fafafa;
+  }
+  h1 {
+    font-size: 26px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+  }
+  p, li { font-size: 15px; color: #444; }
+  ul { padding-left: 22px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  th { background: #f2f2f2; }
+  .updated {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .contact {
+    background: #f0f4ff;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 30px;
+  }
+  footer {
+    margin-top: 50px;
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<h1>개인정보처리방침 (Privacy Policy)</h1>
+<p class="updated">최종 업데이트: 2026년 6월 11일</p>
+
+<p>
+본 개인정보처리방침은 inst_dm_auto (이하 "본 서비스")가 Instagram Graph API를 통해
+제공하는 자동 댓글/DM 응답 기능과 관련하여, 이용자의 개인정보를 어떻게 수집, 이용,
+저장 및 보호하는지 설명합니다.
+</p>
+
+<h2>1. 운영자 정보</h2>
+<p>
+본 서비스는 개인 개발자가 운영하며, 별도의 법인 또는 사업자가 아닙니다.<br>
+문의: <a href="mailto:pizio1761@gmail.com">pizio1761@gmail.com</a>
+</p>
+
+<h2>2. 수집하는 정보</h2>
+<p>본 서비스는 Instagram Graph API를 통해 다음 정보를 수집할 수 있습니다.</p>
+<table>
+  <tr><th>항목</th><th>설명</th></tr>
+  <tr><td>Instagram 사용자 ID</td><td>댓글 작성자 또는 DM 발신자의 고유 식별자(IGSID)</td></tr>
+  <tr><td>댓글/DM 본문 텍스트</td><td>키워드 매칭을 위한 댓글 및 다이렉트 메시지 내용</td></tr>
+  <tr><td>댓글/메시지 ID</td><td>중복 처리 방지를 위한 식별자</td></tr>
+  <tr><td>게시물(미디어) ID</td><td>어떤 게시물에 대한 댓글인지 식별하기 위한 정보</td></tr>
+  <tr><td>이벤트 발생 시각</td><td>댓글 또는 메시지가 수신된 시간</td></tr>
+</table>
+
+<h2>3. 정보 수집 목적</h2>
+<ul>
+  <li>이용자가 댓글 또는 DM에 특정 키워드를 포함했을 때, 사전에 설정된 답변을 자동으로 발송</li>
+  <li>중복 응답 방지 및 서비스 운영 상태 모니터링</li>
+  <li>서비스 품질 개선 및 오류 디버깅</li>
+</ul>
+
+<h2>4. 정보의 저장 및 보관</h2>
+<p>
+수집된 정보는 Supabase(클라우드 데이터베이스)에 암호화된 채널을 통해 저장되며,
+관리자만 접근 가능합니다. 별도의 보관 기간이 정해진 경우를 제외하고,
+서비스 운영 및 품질 개선 목적 달성 후에는 합리적인 기간 내에 삭제됩니다.
+</p>
+
+<h2>5. 제3자 제공 및 위탁</h2>
+<p>
+수집된 정보는 다음의 경우를 제외하고 제3자에게 제공되지 않습니다.
+</p>
+<ul>
+  <li>Meta(Instagram) Graph API를 통한 메시지 발송 처리 — 응답을 전달하기 위한 필수 절차</li>
+  <li>데이터 저장을 위한 Supabase(인프라 제공업체) — 별도의 마케팅/광고 목적 이용 없음</li>
+</ul>
+<p>본 서비스는 수집한 정보를 광고, 마케팅, 또는 본 목적 외의 용도로 판매하거나 공유하지 않습니다.</p>
+
+<h2>6. 이용자의 권리</h2>
+<p>
+이용자는 자신의 정보에 대해 열람, 정정, 삭제를 요청할 수 있습니다.
+삭제를 원하시는 경우 아래 연락처로 문의해 주시면 신원 확인 후 합리적인 기간 내에 처리합니다.
+</p>
+
+<h2>7. 보안</h2>
+<p>
+본 서비스는 수집된 정보를 보호하기 위해 암호화된 통신(HTTPS) 및 접근 제어가 적용된
+데이터베이스를 사용합니다. 다만 인터넷을 통한 전송 방식의 특성상 100% 안전을 보장할 수는 없습니다.
+</p>
+
+<h2>8. 정책 변경</h2>
+<p>
+본 개인정보처리방침은 서비스 변경 또는 법령 개정에 따라 수정될 수 있으며,
+변경 시 본 페이지를 통해 공지합니다.
+</p>
+
+<div class="contact">
+  <strong>문의 및 삭제 요청</strong><br>
+  이메일: <a href="mailto:pizio1761@gmail.com">pizio1761@gmail.com</a>
+</div>
+
+<footer>
+  inst_dm_auto &middot; Privacy Policy &middot; 2026
+</footer>
+
+</body>
+</html>
